@@ -93,9 +93,10 @@ Open http://localhost:3000 in your browser.
   "type": "summarize" | "explain" | "insight",
   "maxTokens": 500
 }
+```
 
 
-## 🗃️ Supabase Table Structure
+### 🗃️ Supabase Table Structure
 
 ### `notes`
 
