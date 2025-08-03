@@ -1,4 +1,4 @@
-# ✨ AI Notes App | Quill
+# ✨ AI Notes App | NotedAI
 
 A modern, full-stack Notes Application built with **Next.js (App Router + TypeScript)**, **TailwindCSS**, **Shadcn UI**, and **Supabase**.  
 Includes features like user authentication, CRUD for notes, AI-powered summarization and explanations, and smooth state management using **React Query**.
@@ -57,6 +57,22 @@ Includes features like user authentication, CRUD for notes, AI-powered summariza
 git clone https://github.com/vineesha35/NotedAI.git
 cd notedai
 
+### 2. Install dependencies
+pnpm install
 
+### 3. Set up your environment variables
+Create a .env.local file and add the following:
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+GROQ_API_KEY=your_groq_api_key
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_client_secret
+
+### 4. Run the dev server
+pnpm dev
+
+
+Open your browser at:
+http://localhost:3000
 
 
