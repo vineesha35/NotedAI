@@ -94,6 +94,7 @@ Open http://localhost:3000 in your browser.
   "maxTokens": 500
 }
 
+
 ## 🗃️ Supabase Table Structure
 
 ### `notes`
